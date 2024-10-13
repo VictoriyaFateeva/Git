@@ -29,3 +29,5 @@ if bool(reg_email.match(user_email)) is True:
     print('Почта принята!')
 else:
     print('Ввод некорректен! Повторите ввод данных!\n')
+
+print('Хочу пушить в прод')
