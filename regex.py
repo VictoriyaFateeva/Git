@@ -17,3 +17,9 @@ if bool(reg_surname.match(user_surname)) is True:
     print('Фамилия принята!')
 else:
     print('Ввод некорректен! Повторите ввод данных!\n')
+
+user_phone=input('Введите номер пользователя:')
+if bool(reg_phone.match(user_phone)) is True:
+    print('Номер принят!')
+else:
+    print('Ввод некорректен! Повторите ввод данных!\n')
